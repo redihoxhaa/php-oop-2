@@ -1,0 +1,56 @@
+/* #region RESET */
+
+[v-cloak] {
+    display: none;
+}
+
+.container {
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* #endregion RESET */
+
+/* #region VARIABLES */
+
+/* #endregion VARIABLES */
+
+/* #region TYPOGRAPHY */
+
+/* #endregion TYPOGRAPHY */
+
+/* #region COMMON */
+
+
+/* #endregion COMMON */
+
+/* #region HEADER */
+
+
+/* #endregion HEADER */
+
+/* #region MAIN */
+
+
+/* #endregion MAIN */
+
+/* #region FOOTER */
+
+
+
+/* #endregion FOOTER */
+
+/* #region UTILITIES */
+
+
+/* #endregion UTILITIES */
