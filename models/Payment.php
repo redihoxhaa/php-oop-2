@@ -1,23 +1,25 @@
 <?php
 
-class Payment
+require_once __DIR__ . '/Customer.php';
+
+class Payment extends Customer
 {
 
     public $creditCardNumber;
     public $expirationDate;
 
-    public function __construct($_creditCardNumber, $_expirationDate)
+    public function __construct($_id, $_name, $_email, $_isRegistered, $_discount, $_creditCardNumber, $_expirationDate)
     {
+        parent::__construct($_id, $_name, $_email, $_isRegistered, $_discount);
         $this->creditCardNumber = $_creditCardNumber;
-        $this->expirationDate = $_expirationDate;
+        $this->expirationDate = DateTime::createFromFormat('m/Y', $_expirationDate);
     }
 
     public function checkCreditCard()
     {
         $currentDate = new DateTime();
-        $expirationDate = DateTime::createFromFormat('m/Y', $this->expirationDate);
 
-        if ($currentDate < $expirationDate) {
+        if ($currentDate < $this->expirationDate) {
             return true;
         } else {
             return false;
