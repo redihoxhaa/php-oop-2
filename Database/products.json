@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Virtus Dog Adult Rustic",
+        "price": 26.99,
+        "category": "Cani",
+        "type": "Cibo",
+        "image": "https://arcaplanet.vtexassets.com/arquivos/ids/224338/virtus-rustic-cane-adult.jpg?v=637454741671700000"
+    },
+    {
+        "id": 2,
+        "name": "Osso Moderate Dental Chew Nylabone",
+        "price": 6.99,
+        "category": "Cani",
+        "type": "Giochi",
+        "image": "https://arcaplanet.vtexassets.com/arquivos/ids/242096/nylabone-moderate-cane-gioco-dental-blu.jpg?v=637454995736530000"
+    },
+    {
+        "id": 3,
+        "name": "Cuccia per Cane Angolare in Ecopelle Tabacco",
+        "price": 79.99,
+        "category": "Cani",
+        "type": "Cucce",
+        "image": "https://arcaplanet.vtexassets.com/arquivos/ids/275508/luna-e-teo-cuccia-angolare-colore-tabacco.jpg?v=637992757709330000"
+    },
+    {
+        "id": 5,
+        "name": "Palla Snack Gioco per Gatti Verde",
+        "price": 5.99,
+        "category": "Gatti",
+        "type": "Giochi",
+        "image": "https://arcaplanet.vtexassets.com/arquivos/ids/283729/palla-snack-gioco-per-gatti-verde.jpg?v=638168828051000000"
+    },
+    {
+        "id": 6,
+        "name": "Lettiera Biokat's Bianco Fresh",
+        "price": 10.99,
+        "category": "Gatti",
+        "type": "Cucce",
+        "image": "https://arcaplanet.vtexassets.com/arquivos/ids/276191/lettiera-biokats-bianco-fresh-hygiene-control.jpg?v=638022823600530000"
+    }
+]
