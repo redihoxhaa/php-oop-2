@@ -21,5 +21,4 @@ if (!empty($_GET['type'])) {
     });
 }
 
-header('Content-Type: application/json');
 echo json_encode($result);

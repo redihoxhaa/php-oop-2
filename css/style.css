@@ -64,18 +64,43 @@ h1 {
     gap: 30px;
 }
 
-.pic-container {
+.product .card .pic-container {
     width: 200px;
 }
 
-.card h3 {
+.product .card .bottom-col {
+    width: 100%;
+}
+
+.product .card h3 {
     font-size: 18px;
 }
 
-.card p {
+.product .card p {
     font-weight: normal;
     font-size: 14px;
 }
+
+.cart .card .cart-product {}
+
+.cart .card .cart-product .pic-container {
+    width: 50px;
+}
+
+.cart .card .cart-product .info h3 {
+    font-size: 14px;
+}
+
+.cart .card .cart-product .info span {
+    font-size: 12px;
+}
+
+.cart .card .card p {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
 
 .no-results-message {
     color: white;

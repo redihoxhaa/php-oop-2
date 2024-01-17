@@ -8,3 +8,12 @@ $products = [];
 foreach ($products_db as $product) {
     array_push($products, new Product($product['id'], $product['name'], $product['price'], $product['category'], $product['type'], $product['image']));
 }
+
+function getProductByID($productID, $products)
+{
+    foreach ($products as $product) {
+        if ($product->id == $productID) {
+            return $product;
+        }
+    }
+}
