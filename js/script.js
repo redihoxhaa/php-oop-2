@@ -4,7 +4,9 @@ createApp({
     data() {
         return {
             products: [],
-            cart: [],
+            cart: {
+                products_to_check_out: []
+            },
             selectedCategory: "",
             selectedType: "",
         }

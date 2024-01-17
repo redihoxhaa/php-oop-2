@@ -20,8 +20,8 @@
     <!-- /Barra di ricerca per filtrare prodotti -->
 
     <!-- Carrello -->
-    <div class="cart" v-show="cart.products_to_check_out">
-        <ul class="card">
+    <div class="cart mt-5" v-show="cart.products_to_check_out.length">
+        <ul class="card d-flex flex-column justify-content-between p-3">
             <li class="cart-product d-flex align-items-center" v-for="product in cart.products_to_check_out">
                 <div class="pic-container">
                     <img :src=product.image alt="product.name">
